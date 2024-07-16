@@ -107,7 +107,7 @@ Console.Position = UDim2.new(0.869000018, 0, 0.0820000023, 0)
 Console.Selectable = false
 Console.Size = UDim2.new(0.0414937772, 0, 0.0802139044, 0)
 Console.Font = Enum.Font.SourceSans
-Console.Text = "CONSOLE"
+Console.Text = "日志"
 Console.TextColor3 = Color3.fromRGB(255, 255, 255)
 Console.TextScaled = true
 Console.TextSize = 14.000
@@ -187,18 +187,18 @@ local function ILHHCCK_fake_script() -- HideShow.Script
 	local script = Instance.new('Script', HideShow)
 
 	script.Parent.MouseButton1Click:Connect(function()
-	 if script.Parent.Parent.HideShow.Text == "HIDE BUTTON" then
+	 if script.Parent.Parent.HideShow.Text == "隐藏按钮" then
 		script.Parent.Parent.Sprint.Visible = false
 		script.Parent.Parent.F.Visible = false
 		script.Parent.Parent.C.Visible = false
 		script.Parent.Parent.Console.Visible = false
-		script.Parent.Parent.HideShow.Text = "SHOW BUTTON"
-		elseif script.Parent.Parent.HideShow.Text == "SHOW BUTTON" then
+		script.Parent.Parent.HideShow.Text = "显示按钮"
+		elseif script.Parent.Parent.HideShow.Text == "显示按钮" then
 			script.Parent.Parent.Sprint.Visible = true
 			script.Parent.Parent.F.Visible = true
 			script.Parent.Parent.C.Visible = true
 			script.Parent.Parent.Console.Visible = true
-			script.Parent.Parent.HideShow.Text = "HIDE BUTTON"
+			script.Parent.Parent.HideShow.Text = "隐藏按钮"
 		end
 	end)
 end
